@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="adminPanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="805.0" prefWidth="1398.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wesgeosys.mainMapsController">
+   <children>
+      <Text layoutX="20.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAPS">
+         <font>
+            <Font name="Heiti TC Light" size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAYERS">
+         <font>
+            <Font name="Heiti TC Light" size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POINTS OF INTEREST">
+         <font>
+            <Font name="Heiti TC Light" size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAVOURITES">
+         <font>
+            <Font name="Heiti TC Light" size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLOOR">
+         <font>
+            <Font name="Heiti TC Light" size="10.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="floorsDropdown" layoutX="20.0" layoutY="170.0" minHeight="14.0" onAction="#handleFloorsAction" prefHeight="5.0" prefWidth="145.0" />
+      <ComboBox fx:id="favDropdown" layoutX="21.0" layoutY="134.0" minHeight="14.0" onAction="#handleFavAction" prefHeight="5.0" prefWidth="145.0" />
+      <ComboBox id="poiDrop" fx:id="poiDropdown" layoutX="20.0" layoutY="100.0" minHeight="14.0" onAction="#handlePOIAction" prefHeight="5.0" prefWidth="145.0" />
+      <ComboBox id="layersDrop" fx:id="layersDropdown" layoutX="20.0" layoutY="66.0" minHeight="14.0" onAction="#handleLayersAction" prefHeight="5.0" prefWidth="145.0" />
+      <ComboBox id="mapsDrop" fx:id="mapsDropdown" layoutX="20.0" layoutY="32.0" minHeight="14.0" onAction="#handleMapsAction" prefHeight="5.0" prefWidth="145.0" />
+      <Text layoutX="54.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="London Weather">
+         <font>
+            <Font name="Heiti TC Medium" size="10.0" />
+         </font>
+      </Text>
+      <Line endX="55.42063903808594" layoutX="117.0" layoutY="197.0" startX="-100.0" />
+      <Line endX="55.42063903808594" layoutX="118.0" layoutY="309.0" startX="-100.0" />
+      <Button id="favButton" fx:id="favButton" layoutX="16.0" layoutY="314.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#handleToggleFavourites" prefHeight="13.0" prefWidth="159.0" text="ADD TO FAVOURITES">
+         <font>
+            <Font name="Heiti TC Light" size="7.0" />
+         </font>
+      </Button>
+      <Button fx:id="insertPOI" layoutX="16.0" layoutY="329.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#insertPOI" prefHeight="13.0" prefWidth="159.0" text="ADD POI">
+         <font>
+            <Font name="Heiti TC Light" size="7.0" />
+         </font>
+      </Button>
+      <Button fx:id="modifyPOI" layoutX="16.0" layoutY="344.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#modifyPOI" prefHeight="13.0" prefWidth="159.0" text="EDIT POI">
+         <font>
+            <Font name="Heiti TC Light" size="7.0" />
+         </font>
+      </Button>
+      <Button fx:id="remPOI" layoutX="16.0" layoutY="360.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#deletePOI" prefHeight="13.0" prefWidth="159.0" text="REMOVE POI">
+         <font>
+            <Font name="Heiti TC Light" size="7.0" />
+         </font>
+      </Button>
+      <Button layoutX="63.0" layoutY="375.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#handleOpenHelp" prefHeight="13.0" prefWidth="62.0" text="HELP">
+         <font>
+            <Font name="Heiti TC Light" size="7.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="26.0" layoutY="243.0" text="Current Temperature:" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Medium" size="7.0" />
+         </font>
+      </Label>
+      <Label id="curTempVal" fx:id="currentTemperature" alignment="CENTER" contentDisplay="CENTER" layoutX="102.0" layoutY="243.0" text="NA" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Medium" size="7.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="26.0" layoutY="264.0" text="Low:" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Medium" size="7.0" />
+         </font>
+      </Label>
+      <Label id="lowTempVal" fx:id="lowTemperature" alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="264.0" text="NA" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Medium" size="7.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="26.0" layoutY="275.0" text="Feels like:" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Medium" size="7.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="26.0" layoutY="254.0" text="High:" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Light" size="7.0" />
+         </font>
+      </Label>
+      <Label id="highTempVal" fx:id="highTemperature" alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="254.0" text="NA" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Light" size="7.0" />
+         </font>
+      </Label>
+      <Label id="feelsTempVal" fx:id="feelsLikeTemperature" alignment="CENTER" contentDisplay="CENTER" layoutX="62.0" layoutY="275.0" text="NA" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Light" size="7.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="180.0" layoutY="21.0" prefHeight="774.0" prefWidth="1200.0">
+         <content>
+            <ImageView fx:id="mapDisplay" fitHeight="774.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/wesgeosys/mapImages/Middlesex College - Floor 1.png" />
+               </image>
+            </ImageView>
+         </content>
+      </ScrollPane>
+      <Label id="descText" fx:id="descriptionText" alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="416.0" text="Description" textAlignment="CENTER">
+         <font>
+            <Font name="Heiti TC Medium" size="9.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

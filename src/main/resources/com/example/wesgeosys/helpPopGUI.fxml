@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wesgeosys.popupController">
+    <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="EDIT">
+                <content>
+                    <TextArea editable="false" prefHeight="357.0" prefWidth="581.0" text="To edit a point of interest, building or floor, simply click on the corresponding &quot;Edit&quot; button on&#10;the application. This will allow you to remain and change some characteristics of each &#10;respective thing.">
+                  <font>
+                     <Font name="Heiti TC Light" size="13.0" />
+                  </font></TextArea>
+                </content>
+            </Tab>
+            <Tab text="ADD">
+                <content>
+                    <TextArea editable="false" prefHeight="357.0" prefWidth="581.0" text="To add a point of interest, building or floor, simply click on the corresponding &quot;Add&quot; button on &#10;the application. This will allow you to add a new point of interest, building or floor with the &#10;characteristics you provide.">
+                  <font>
+                     <Font name="Heiti TC Light" size="13.0" />
+                  </font></TextArea>
+                </content>
+            </Tab>
+            <Tab text="EXIT">
+                <content>
+                    <TextArea editable="false" prefHeight="312.0" prefWidth="600.0" text="To exit the application, simply press the X button on the corner of the application. &#10;This will immediately sign you out and take you out of the application.">
+                  <font>
+                     <Font name="Heiti TC Light" size="13.0" />
+                  </font></TextArea>
+                </content>
+            </Tab>
+            <Tab text="LAYERS">
+                <content>
+                    <TextArea editable="false" prefHeight="357.0" prefWidth="581.0" text="To view the washrooms, classrooms, labs, and favorites selected by the user, use the editing &#10;tools to select and display the corresponding layers.">
+                  <font>
+                     <Font name="Heiti TC Light" size="13.0" />
+                  </font></TextArea>
+                </content>
+            </Tab>
+         <Tab text="INFO">
+            <content>
+               <TextArea editable="false" prefHeight="357.0" prefWidth="581.0" text="Build #IC-222.3345.118, built on July 29, 2022&#10;Runtime version: 17.0.3+7-b469.32 aarch64&#10;VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o&#10;&#10;JavaFX (version 18.0.1)&#10;JUnit 5&#10;Maven (version 3.10.1)&#10;&#10;Group 23&#10;Collaborators: Zeshan, Hansel, Izum, Nasri, &amp; Eseosa&#10;&#10;       Eseosa Atekha      (eatekha@uwo.ca)&#10;       Izum Adnan     (iadnan2@uwo.ca)&#10;       Hansel Ifechukwude Awogu      (hawogu@uwo.ca)&#10;       Nasri Hussein      (nhussei6@uwo.ca)&#10;       Zeshan Ahmed      (zahme2@uwo.ca)&#10;&#10;Western Geographic Information System (version 0.1)&#10;&#10;">
+                  <font>
+                     <Font name="Heiti TC Light" size="13.0" />
+                  </font>
+               </TextArea>
+            </content>
+         </Tab>
+        </tabs>
+    </TabPane>
+   <Button id="closePopup" fx:id="closePopup" layoutX="538.0" layoutY="5.0" mnemonicParsing="false" onAction="#popupClose" text="Close">
+      <font>
+         <Font name="Heiti TC Medium" size="13.0" />
+      </font>
+   </Button>
+</AnchorPane>

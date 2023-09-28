@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8200f80a-8415-498a-b8ec-249a82e57cc4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - Classroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - CollaborationSpace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - Default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - Elevator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - Empty Heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - Full Heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - Lab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - Navigation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - Placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconImages/Icon Image - Washroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/Alumni Hall - Floor 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/Alumni Hall - Floor 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/Alumni Hall - Floor 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/Middlesex College - Floor 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/Middlesex College - Floor 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/Middlesex College - Floor 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/Middlesex College - Floor 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/Middlesex College - Floor 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/University College - Floor 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/University College - Floor 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/University College - Floor 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapImages/University College - Floor 4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/accountClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountData.json" beforeDir="false" afterPath="$PROJECT_DIR$/accountData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addBuildingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/addBuildingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addBuildingControllerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/addBuildingControllerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addFloorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/addFloorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addFloorControllerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/addFloorControllerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addPOIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/addPOIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admMapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backUpBuiltInPOI.json" beforeDir="false" afterPath="$PROJECT_DIR$/backUpBuiltInPOI.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editBuildingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/editBuildingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editPOIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/editPOIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/editTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Classroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/CollaborationSpace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Elevator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Lab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Navigation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Washroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/emptyheart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/fullheart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logControllerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/logControllerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainMapLaunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainMapLaunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainMapsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainMapsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainMapsControllerGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Alumni Hall - Floor 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Alumni Hall - Floor 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Alumni Hall - Floor 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Middlesex_College-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Middlesex_College-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Middlesex_College-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Middlesex_College-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/Middlesex_College-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/NoImageFound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/University College - Floor 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/University College - Floor 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/University College - Floor 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/University College - Floor 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/popupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/popupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/signupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/weatherReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/admMapsGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/admMapsGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/logGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/logGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/logInvalidGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/logInvalidGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/mainMapsGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/mainMapsGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/signupGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/signupGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/signupInvalidGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/com/example/wesgeosys/signupInvalidGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/accountClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/addBuildingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/addBuildingControllerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/addBuildingGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/addFloorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/addFloorControllerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/addFloorGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/addPOIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/addPOIControllerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/addPOIGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/admMapController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/admMapsControllerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/admMapsGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/alertPageGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/editBuildingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/editBuildingControllerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/editBuildingGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/editFloorGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/editPOIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/editPOIControllerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/editPOIGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/editTool$layerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/editTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/helpPopGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/logController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/logControllerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/logGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/logInvalidGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/mainMapLaunch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/mainMapsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/mainMapsControllerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/mainMapsGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/popupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/removeBuildingGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/removeFloorGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/searchHelperTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/signupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/signupControllerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/signupGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/signupInvalidGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/com/example/wesgeosys/weatherReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../target/classes/module-info.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NzUs1ngAFJXBriyodiBTRWUhjy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/zeshanahmed/Documents/Workplace/group23/src/main/java/com/example/wesgeosys",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8200f80a-8415-498a-b8ec-249a82e57cc4" name="Changes" comment="" />
+      <created>1680666606564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680666606564</updated>
+    </task>
+    <servers />
+  </component>
+</project>

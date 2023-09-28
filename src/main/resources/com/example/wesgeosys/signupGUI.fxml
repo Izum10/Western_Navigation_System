@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="391.0" prefWidth="322.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wesgeosys.signupController">
+    <children>
+        <Text layoutX="22.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USERNAME">
+            <font>
+                <Font name="Heiti TC Light" size="14.0" />
+            </font>
+        </Text>
+        <Text layoutX="104.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIGN UP" textAlignment="CENTER">
+            <font>
+                <Font name="Heiti TC Light" size="30.0" />
+            </font>
+        </Text>
+        <Button fx:id="buttonLogin" contentDisplay="TOP" layoutX="22.0" layoutY="254.0" mnemonicParsing="false" text="LOG IN">
+            <font>
+                <Font name="Heiti TC Medium" size="13.0" />
+            </font>
+        </Button>
+        <Text layoutX="22.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD">
+            <font>
+                <Font name="Heiti TC Light" size="14.0" />
+            </font>
+        </Text>
+        <TextField fx:id="usernameField" layoutX="113.0" layoutY="161.0" prefHeight="14.0" prefWidth="184.0" />
+      <Button fx:id="buttonRegister" layoutX="230.0" layoutY="254.0" mnemonicParsing="false" text="SIGN UP">
+         <font>
+            <Font name="Heiti TC Medium" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="passwordField" layoutX="113.0" layoutY="199.0" prefHeight="14.0" prefWidth="184.0" />
+    </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>

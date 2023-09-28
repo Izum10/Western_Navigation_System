@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="391.0" prefWidth="322.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wesgeosys.editPOIController">
+    <children>
+        <Text layoutX="22.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font name="Heiti TC Light" size="14.0" />
+            </font>
+        </Text>
+        <Text layoutX="118.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EDIT POI">
+            <font>
+                <Font name="Heiti TC Light" size="23.0" />
+            </font>
+        </Text>
+        <Button fx:id="cancelButton" layoutX="221.0" layoutY="290.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="CANCEL">
+            <font>
+                <Font name="Heiti TC Medium" size="13.0" />
+            </font>
+        </Button>
+        <TextField fx:id="name" layoutX="30.0" layoutY="146.0" prefHeight="26.0" prefWidth="262.0" promptText="RENAME POI">
+            <font>
+                <Font name="Heiti TC Light" size="13.0" />
+            </font>
+        </TextField>
+        <Button fx:id="submitButton" layoutX="31.0" layoutY="291.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="RENAME">
+            <font>
+                <Font name="Heiti TC Medium" size="13.0" />
+            </font>
+        </Button>
+        <TextField fx:id="layerType" layoutX="30.0" layoutY="176.0" prefHeight="26.0" prefWidth="262.0" promptText="ENTER LAYER TYPE">
+            <font>
+                <Font name="Heiti TC Light" size="13.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="roomNum" layoutX="30.0" layoutY="206.0" prefHeight="26.0" prefWidth="262.0" promptText="ENTER ROOM NUMBER">
+            <font>
+                <Font name="Heiti TC Light" size="13.0" />
+            </font>
+        </TextField>
+      <TextField fx:id="desc" layoutX="30.0" layoutY="236.0" prefHeight="26.0" prefWidth="262.0" promptText="ENTER DESC">
+         <font>
+            <Font name="Heiti TC Light" size="13.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wesgeosys.popupController">
+    <children>
+        <Label alignment="CENTER" layoutX="87.0" layoutY="113.0" prefHeight="64.0" prefWidth="427.0" text="Please select the location of the point of interest by clicking on the map." textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Heiti TC Light" size="14.0" />
+            </font>
+        </Label>
+        <Button id="closePopup" fx:id="closePopup" layoutX="250.0" layoutY="268.0" mnemonicParsing="false" onAction="#popupClose" prefHeight="18.0" prefWidth="100.0" text="CLOSE">
+            <font>
+                <Font name="Heiti TC Light" size="12.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
