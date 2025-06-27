@@ -12,22 +12,12 @@
 - Admins can modify points of interest, buildings, and floors in buildings
 - NOTE: Users will require internet access to receive current weather data
 
-# COLLABORATORS
-- Zeshan Ahmed
-- Nasri Hussain
-- Izum Adnan
-- Hansel Ifechukwude Awogu 
-- Eseosa Atekha
 
 # LOGIN DETAILS
 - Usernames (Editing Account):
-- "NigerianPrince" 
-- "YemeniArtifact"
 - "Chumaki"
 
 - Usernames (Main Account):
-- "Hansel" 
-- "Zeshan"
 - "Izum"
 
 - Password (for all usernames):
